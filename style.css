@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+  }
+  a {
+    text-decoration: none;
+    cursor: inherit;
+    color: inherit;
+  }
+  
+  .paginacao {
+    list-style: none;
+  }
+  .paginacao li {
+    display: inline-block;
+    height: 32px;
+    width: 30px;
+    margin-right: 2px;
+    margin-left: 2px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+  }
+  
+  .paginacao_selecionada {
+    background-color: rgb(0, 131, 202);
+    color: rgb(255, 255, 255);
+  }
+  
+  .paginacao_anterior:hover,
+  .paginacao_numero:hover,
+  .paginacao_proximo:hover {
+   border-color:rgb(238, 238, 238);
+  }
+  .paginacao_anterior:active, 
+  .paginacao_proximo:active,
+  .paginacao_numero:active{
+    background:rgba(0, 131, 202, 0.467);
+  }
+  .paginacao_numero:active{
+    color:rgb(255,255,255);
+  }
